@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LuasPersegi">
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <EditText
+            android:id="@+id/etpanjangpersegi"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan Panjang"/>
+
+        <EditText
+            android:id="@+id/etlebarpersegi"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Maukkan Lebar "/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn3"
+        android:layout_below="@id/ll"
+        android:layout_marginTop="55dp"
+        android:layout_centerHorizontal="true"
+        android:text="Hitung"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:id="@+id/btnhtgper"
+        />
+
+    <TextView
+        android:id="@+id/tvhasilper"
+        android:layout_below="@id/btnhtgper"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:textSize="55dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+</RelativeLayout>
